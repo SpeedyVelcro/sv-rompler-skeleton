@@ -1,14 +1,12 @@
-<REAPER_PROJECT 0.1 "7.45/linux-x86_64" 1759796031
+<REAPER_PROJECT 0.1 "7.45/linux-x86_64" 1759858859
   TITLE "SV Rompler Skeleton"
   AUTHOR SpeedyVelcro
   <NOTES 3 3
     |SV Rompler Skeleton is a REAPER project file containing most of the basic setup you
     |need to make music on an external MIDI device such as a rompler.
     |
-    |This project file is licened under the MIT License, which is attached at the end of these
-    |notes.
-    |
-    |QUICK NOTE THAT'S NOT LEGAL ADVICE OR LEGALLY BINDING: Don't worry: if you're a musician you'll probably be exporting MIDIs or audio files that won't include the REAPER project file, so you probably don't need to worry about the license. The only case I can imagine where you might need to pay attention to the license is if you're sharing the project file with others, in which case I think you'll find the license quite permissive.
+    |SV Rompler Skeleton by SpeedyVelcro is licensed under CC0 1.0. You can find the
+    |license here: https://creativecommons.org/public-domain/cc0/
     |
     |======================================================================
     |Reset Message
@@ -39,18 +37,6 @@
     |  (Source: SC-8820 Owner's Manual, pg. 170)
     |
     |If your rompler isn't in the list, you will have to consult your rompler's documentation to find the appropriate reset message. These vary by MIDI standard, and may be called "GM System On", "GM2 System On", "GS Reset", "XG Reset", or similar.
-    |
-    |======================================================================
-    |The MIT License (MIT)
-    |--------------------------------------------------------------------------------------------------------------------------------
-    |Copyright © 2025 SpeedyVelcro
-    |
-    |Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    |
-    |The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    |
-    |THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    |=====================================================================
   >
   RIPPLE 0 0
   GROUPOVERRIDE 0 0 0
@@ -92,6 +78,7 @@
   RENDER_ADDTOPROJ 0
   RENDER_STEMS 0
   RENDER_DITHER 0
+  RENDER_TRIM 0 0 0 0
   TIMELOCKMODE 1
   TEMPOENVLOCKMODE 1
   ITEMMIX 1

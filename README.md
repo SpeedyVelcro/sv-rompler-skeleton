@@ -76,12 +76,4 @@ official MIDI standard. (It does stand for "System Exclusive" after
 all)
 
 ## License
-See license information in [LICENSE.md](LICENSE.md).
-
-QUICK NOTE THAT'S NOT LEGAL ADVICE OR LEGALLY BINDING: Don't worry:
-if you're a musician you'll probably just be exporting MIDIs or audio
-files that by their nature won't include the REAPER project file, so
-you probably don't need to worry about the license. The only case I
-can imagine where you would is if you're sharing the project file with
-others directly, in which case I think you'll find the license quite
-permissive.
+See license information in the [LICENSE](LICENSE) file.
